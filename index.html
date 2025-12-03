@@ -35,16 +35,17 @@
             font-size: 1.2em;
             color: #555;
         }
-        /* 🔥 NEW DOWNLOAD BUTTON STYLES */
+         /* 🔥 DOWNLOAD BUTTON ABSOLUTE POSITIONED */
         .download-btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 22px;
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            padding: 10px 18px;
             background-color: #008080;
             color: #fff;
             text-decoration: none;
             border-radius: 6px;
-            font-size: 1rem;
+            font-size: 0.95rem;
             transition: 0.3s ease-in-out;
         }
         .download-btn:hover {
@@ -109,15 +110,16 @@
 <body>
 
 <div class="container">
+    
+    <!-- 🔥 DOWNLOAD BUTTON (TOP RIGHT) -->
+    <a href="resume.html" download="Zeeshan_Ashraf_CV.html" class="download-btn">
+        ⬇️ Download CV
+    </a>
+    
     <!-- Header -->
     <div class="header">
         <h1>M Zeeshan Ashraf</h1>
         <p>Mobile Application Developer | iOS Developer | Flutter Developer</p>
-
-        <!-- 🔥 NEW DOWNLOAD BUTTON -->
-        <a href="resume.html" download="Zeeshan_Ashraf_CV.html" class="download-btn">
-            ⬇️ Download CV
-        </a>
     </div>
 
     <!-- Contact Information -->
